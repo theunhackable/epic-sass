@@ -51,7 +51,7 @@ export default function Plans({ plans }) {
                     onClick={onCheckout}
                     className="large-button"
                   >
-                    <div className="large-button-text">Buy Now</div>
+                    <div className="large-button-text">{redirecting ? "Redirecting ..." : "Buy Now"}</div>
                   </button>
                 </div>
               </div>
