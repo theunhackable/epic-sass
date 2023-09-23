@@ -17,7 +17,7 @@ const benifits = [
 export default function Benefits() {
 
   return (
-    <div className="bg-teal">
+    <div className="bg-yellow">
       <div className="column-padding">
         <div className="content-grid xl">
          {benifits.map(benifit => (

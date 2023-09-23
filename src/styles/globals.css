@@ -317,6 +317,9 @@ p {
   background-color: #ff90e8;
   color: black;
 }
+.bg-yellow{
+  background-color: #fff17f
+}
 .column-padding {
   position: relative;
   display: flex;
