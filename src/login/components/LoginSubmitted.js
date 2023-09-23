@@ -1,5 +1,5 @@
 export default function LoginSubmitted({submitted}) {
-
+ return (
   <div className="content-grid home-hero">
     <h1>
       Link sent!
@@ -8,5 +8,6 @@ export default function LoginSubmitted({submitted}) {
       Check your email ({submitted})
     </p>
   </div>
+ )
 
 }

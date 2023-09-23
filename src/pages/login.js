@@ -16,12 +16,12 @@ export default function LoginPage() {
             <Link href='/' className="logo-container">
               <Logo style={{width: 150}}/>
             </Link>
-            {submitted ? (<LoginSubmitted submitted={submitted} />) : (<LoginForm setSubmitted={setSubmitted}/>) }
+            {submitted !== '' ? (<LoginSubmitted submitted={submitted} />) : (<LoginForm setSubmitted={setSubmitted}/>) }
           </div>
         </div>
       </div>
       <div className="bg-navy borger-right">
-        <Image src={login} alt='login' />
+        <Image src={login} alt='login' className="callout-image" />
       </div>  
     </div>
   )

@@ -25,6 +25,7 @@ export default function LoginForm({ setSubmitted }) {
     } else {
       setError("");
       setIsLoading(false);
+      setSubmitted(email);
     }
     console.log(error);
   }

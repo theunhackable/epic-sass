@@ -7,7 +7,8 @@ export default async function handler(req, res) {
  const supabaseServerClient = createServerSupabaseClient({
   req, res 
  })
- const {data:{ user }} = await supabaseServerClient.auth.getUser();
+ const { data:{ user } } = await supabaseServerClient.auth.getUser();
+ 
  if(!user){
   return res.status(401).send('unauthorized')
  }
